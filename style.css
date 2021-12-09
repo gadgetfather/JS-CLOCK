@@ -21,7 +21,7 @@ body{
     position: absolute;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
+    /* transition: all 0.05s; */
     
 }
 
