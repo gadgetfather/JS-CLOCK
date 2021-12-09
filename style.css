@@ -18,7 +18,11 @@ body{
     height: 6px;
     background: black;
     top: 50%;
-    position: absolute
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .clock{
